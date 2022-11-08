@@ -6,13 +6,13 @@
 /*   By: pbizien <pbizien@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/01 17:04:51 by pbizien           #+#    #+#             */
-/*   Updated: 2022/11/07 16:53:10 by pbizien          ###   ########.fr       */
+/*   Updated: 2022/11/08 09:32:31 by pbizien          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// The  memccpy()  function  copies  no more than n bytes from memory area 
+// The  memccpy()  function  copies no more than n bytes from memory area 
 // src to memory area dest, stopping when the character c is
-//        found.
+// found.
 
 #include "libft.h"
 #include <stdio.h>
