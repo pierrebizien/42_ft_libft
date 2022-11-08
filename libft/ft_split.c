@@ -6,7 +6,7 @@
 /*   By: pbizien <pbizien@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/01 17:07:51 by pbizien           #+#    #+#             */
-/*   Updated: 2022/11/08 09:32:31 by pbizien          ###   ########.fr       */
+/*   Updated: 2022/11/08 10:42:38 by pbizien          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 #include "libft.h"
 #include <stdio.h>
 
-int	ft_nb_mots(char const *s, char c)
+static int	ft_nb_mots(char const *s, char c)
 {
 	int	i;
 	int	count;
@@ -36,7 +36,7 @@ int	ft_nb_mots(char const *s, char c)
 	return (count);
 }
 
-int	ft_nb_char_to_c(char const *s, char c)
+static int	ft_nb_char_to_c(char const *s, char c)
 {
 	int	i;
 
@@ -48,7 +48,7 @@ int	ft_nb_char_to_c(char const *s, char c)
 	return (i);
 }
 
-char	*ft_generate(char const *s, char c)
+static char	*ft_generate(char const *s, char c)
 {
 	int		i;
 	int		len;

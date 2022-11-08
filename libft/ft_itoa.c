@@ -6,7 +6,7 @@
 /*   By: pbizien <pbizien@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/01 17:04:42 by pbizien           #+#    #+#             */
-/*   Updated: 2022/11/08 09:32:31 by pbizien          ###   ########.fr       */
+/*   Updated: 2022/11/08 10:01:53 by pbizien          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 #include <stdio.h>
 #include <limits.h>
 
-int	ft_intlen(int n)
+static int	ft_intlen(int n)
 {
 	int	i;
 
