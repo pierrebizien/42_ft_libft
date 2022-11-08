@@ -6,13 +6,13 @@
 /*   By: pbizien <pbizien@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/01 17:05:48 by pbizien           #+#    #+#             */
-/*   Updated: 2022/11/08 09:32:31 by pbizien          ###   ########.fr       */
+/*   Updated: 2022/11/08 09:53:48 by pbizien          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 // La fonction memchr() examine les n premiers octets de la zone mémoire 
-// pointée par s à la recherche du caractère c. Le premier octet correspondant à c 
-// (interprété comme un unsigned char) arrête l'opération. 
+// pointée par s à la recherche du caractère c. Le premier octet correspondant
+// à c (interprété comme un unsigned char) arrête l'opération. 
 
 #include "libft.h"
 #include <stdio.h>
